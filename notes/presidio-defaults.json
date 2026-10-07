@@ -1,0 +1,106 @@
+{
+  "spacy_model": "en_core_web_lg",
+  "spacy_model_version": "3.8.0",
+  "supported_entities": [
+    "CREDIT_CARD",
+    "CRYPTO",
+    "DATE_TIME",
+    "EMAIL_ADDRESS",
+    "IBAN_CODE",
+    "IP_ADDRESS",
+    "LOCATION",
+    "MAC_ADDRESS",
+    "MEDICAL_LICENSE",
+    "NRP",
+    "PERSON",
+    "PHONE_NUMBER",
+    "UK_NHS",
+    "URL",
+    "US_BANK_NUMBER",
+    "US_DRIVER_LICENSE",
+    "US_ITIN",
+    "US_PASSPORT",
+    "US_SSN"
+  ],
+  "probes": [
+    {
+      "text": "John Doe met Jane Smith in Whitby on 3 March.",
+      "found": [
+        [
+          "DATE_TIME",
+          "3 March"
+        ],
+        [
+          "LOCATION",
+          "Whitby"
+        ],
+        [
+          "PERSON",
+          "Jane Smith"
+        ],
+        [
+          "PERSON",
+          "John Doe"
+        ]
+      ]
+    },
+    {
+      "text": "ACME Corp paid $154,000 to Harrowfield Logistics Ltd.",
+      "found": []
+    },
+    {
+      "text": "Email ada.okafor@harrowfield-logistics.co.uk or call 07700 900123.",
+      "found": [
+        [
+          "DATE_TIME",
+          "07700 900123"
+        ],
+        [
+          "EMAIL_ADDRESS",
+          "ada.okafor@harrowfield-logistics.co.uk"
+        ],
+        [
+          "PERSON",
+          "Email"
+        ],
+        [
+          "PHONE_NUMBER",
+          "07700 900123"
+        ],
+        [
+          "URL",
+          "harrowfield-logistics.co.uk"
+        ],
+        [
+          "US_DRIVER_LICENSE",
+          "900123"
+        ]
+      ]
+    },
+    {
+      "text": "Pay GB82 WEST 1234 5698 7654 32 or GB82WEST12345698765432 by Friday.",
+      "found": [
+        [
+          "DATE_TIME",
+          "Friday"
+        ],
+        [
+          "IBAN_CODE",
+          "GB82 WEST 1234 5698 7654 32"
+        ],
+        [
+          "IBAN_CODE",
+          "GB82WEST12345698765432"
+        ]
+      ]
+    },
+    {
+      "text": "Her salary is £54,500, about 54.5k a year.",
+      "found": []
+    },
+    {
+      "text": "the review is with rose and mark, and Will signs off.",
+      "found": []
+    }
+  ]
+}

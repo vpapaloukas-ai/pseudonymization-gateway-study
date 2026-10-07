@@ -1,0 +1,42 @@
+{
+  "entities": [
+    "ACCOUNT_NUMBER",
+    "AMOUNT",
+    "CREDIT_CARD",
+    "EMAIL_ADDRESS",
+    "IBAN_CODE",
+    "LOCATION",
+    "ORDER_NUMBER",
+    "PERSON",
+    "PHONE_NUMBER",
+    "UK_PHONE",
+    "UK_POSTCODE"
+  ],
+  "threshold": 0.4,
+  "probes": [
+    {
+      "text": "My husband John Smith placed it from Whitby.",
+      "masked": "My husband [PERSON_1] placed it from Whitby."
+    },
+    {
+      "text": "Call 07700 900456 or +44 7700 900457.",
+      "masked": "Call [UK_PHONE_2] or [UK_PHONE_1]."
+    },
+    {
+      "text": "Ref BW-123456, account BWC7654321, £12.50 and £1,200.",
+      "masked": "Ref [ORDER_NUMBER_1], account [ACCOUNT_NUMBER_1], [AMOUNT_2] and [AMOUNT_1]."
+    },
+    {
+      "text": "Send it to 4 Mill Lane, Kendal LA9 4RT.",
+      "masked": "Send it to 4 [PERSON_1], [LOCATION_1]."
+    },
+    {
+      "text": "Refund to GB33 SYNT 1234 5612 3456 78 or card 4111 1111 1111 1111.",
+      "masked": "Refund to [IBAN_CODE_1] or card [CREDIT_CARD_1]."
+    },
+    {
+      "text": "Dispatched 2026-09-14 by Harrowfield Logistics Ltd.",
+      "masked": "Dispatched 2026-09-14 by Harrowfield Logistics Ltd."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "requested": "claude-opus-5-5",
+    "models_api_id": "claude-opus-5-5",
+    "display_name": "Claude Opus 5.5",
+    "reported_model": "claude-opus-5-5",
+    "stop_reason": "end_turn",
+    "text": "READY",
+    "request_id": "req_011CfjLvNnA2F4mNG9pUE5zu",
+    "at": "2026-10-05T15:41:35.428751+00:00"
+  },
+  {
+    "requested": "claude-sonnet-5-5",
+    "models_api_id": "claude-sonnet-5-5",
+    "display_name": "Claude Sonnet 5.5",
+    "reported_model": "claude-sonnet-5-5",
+    "stop_reason": "end_turn",
+    "text": "READY",
+    "request_id": "req_011CfjLvsUK8Tqfq3Jsncht2",
+    "at": "2026-10-05T15:41:42.317662+00:00"
+  }
+]
