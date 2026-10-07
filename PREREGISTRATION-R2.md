@@ -2132,3 +2132,6 @@ Any change after this commit is a dated amendment committed before the runs it a
 - **2026-10-07, before publication.** Wording only: the sentences that drew legal conclusions (sections 3 and 7.2)
   now state the study's scope instead, and the version labels in the title and the rubric heading are removed. No
   rule, measurement, code, seed or data changed.
+- **2026-10-07, after the scored run and before any of its results were read.** The human send-readiness read
+  (section 7.5) is withdrawn before completion. No levels from it are reported, and none of section 7.5's figures
+  appear in the results. Every other measurement stands as registered.
