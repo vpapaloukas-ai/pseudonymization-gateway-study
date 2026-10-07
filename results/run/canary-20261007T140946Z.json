@@ -1,0 +1,10 @@
+{
+  "requested": "claude-sonnet-5-5",
+  "models_api_id": "claude-sonnet-5-5",
+  "display_name": "Claude Sonnet 5.5",
+  "reported_model": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "text": "READY",
+  "request_id": "req_011Cfo1Zqo5RGyai5zZETY4x",
+  "at": "2026-10-07T14:10:10.922815+00:00"
+}

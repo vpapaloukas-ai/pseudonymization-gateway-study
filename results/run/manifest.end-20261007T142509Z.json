@@ -1,0 +1,53 @@
+{
+  "batch": "runs\\test-batch",
+  "batch_sha256": {
+    "audit.jsonl": "2332dc21f93f2d1d5c1895c29660bbd2398a527cfc443b633edefe11174b5e49",
+    "briefs.jsonl": "9448c1e7c2377d52e3e46c9b3193b99564afdde447eccba07f63eadadd5344fb",
+    "crm.json": "ae757840dc55c9db172bafc7fd0b23f6f55508aee09dc95390404475a3816334",
+    "emails.jsonl": "9fe56795b0431f6601702c33f6fac340d9471a81deb291f81e0977d66070c9d8",
+    "generation.jsonl": "e91f97c69cec6dec894cc19fa1accb2a67f852d1d77c9781dac1391e6a156649",
+    "gold.jsonl": "de2105166234f84f81f55eec11ec6ec022b94ea380469650c8f6dc8b0ba0705f"
+  },
+  "dev": false,
+  "effort": "high",
+  "frozen": true,
+  "model": "claude-sonnet-5-5",
+  "model_stage": "live",
+  "script_hashes": {
+    "pgw/__init__.py": "2e39d14d1c54ac933064d36cada1395e3003f5b14567c22b79d636fb7ca162d4",
+    "pgw/audit.py": "09f4f5c1fe75e27645c038f0e64221734907dd011a54323f9c5916e332200d46",
+    "pgw/baseline.py": "f06ede5fc862732685046a7b3a204325d35f61c43ec3f5edfaeade2d42ae244f",
+    "pgw/briefs.py": "9f527693ee55b0e6114b78ab675bce205ddff948bad01284358aa35ace950c90",
+    "pgw/calc.py": "fa1192c2690abe3fbde47c2850b7febcba60ad99ec4dde400df0cb66fe171098",
+    "pgw/crm.py": "7390c96f5bf202e907dd50fc6785f2f9285fe3f247b4364102e1089ce9801a2f",
+    "pgw/detector.py": "e81bee2d07afd21c3098be998ea0419e7810a1f22a1abd04cf1fc82eaf484f99",
+    "pgw/draftcheck.py": "3b44d831bedc7e111767da35fc3c1d5a423fcff4d2cdadddd18971c299d82894",
+    "pgw/emailgen.py": "8d7bb22a32ab2d5b37d41014e4f845032571c21d60b7cb5d0fcee87257b03b75",
+    "pgw/exitcheck.py": "736fcef52e63cc587b4884afe84595bb20818d3bd11fee44349e4a94e12bc6a2",
+    "pgw/known.py": "9de8f45c89ed7f12fd2e129b24b0870ac507f9829cac194741b12c1b1840fa1d",
+    "pgw/known_scan.py": "141c73bed9dbebbb80279be8ca832ccc9bbbf5286f89ab092e41fceff0a58554",
+    "pgw/manifest.py": "d8d9031e6cab8d11328cc81895e1b229223eae7828656b6c21e121dad3e9bb26",
+    "pgw/masking.py": "c926f257715177ffbdb4c7cecd121abb45b35fa0c8a92903826c5bb8e5d7f224",
+    "pgw/model_call.py": "f50f433f39eeb95e6275ca59bc4f32feaace0ce6ea7bd6debdab0da4cbccf407",
+    "pgw/names.py": "6814955261291525e8b7299cec14594883b44c0b48fed8cd8a8f7305caf8f058",
+    "pgw/pipeline.py": "22649ae7c0b32876db7c82ebae1915e6a86603c2c0f312fcdaa413d1c6572aef",
+    "pgw/policy.py": "f8948e318cefe43fdb543ba7bbab58a6198756c84e823bae344b03316d8760bc",
+    "pgw/presidio_probe.py": "5e62b3f0ec7ca7c6678b5052fad670c548b0ac91d0d983d3d5129fd2dc3aff16",
+    "pgw/prompts.py": "47f23efaca3644b534534df1b760c0cbf2704c63d9311b1fa90369027bdec303",
+    "pgw/run.py": "8444f9632ea402f39b723c07f9c24421362ce62f667941591455711bd71d9d70",
+    "pgw/score.py": "2d6bdb31ec8c479c3490b2d9c14485983fbb4a5ce76e1786074aa08dc9e56cb9",
+    "pgw/vault.py": "35aa1ee661ec552df28f1a3432b2b57afdb03e2266e36cf2991e1e03c9506fc2"
+  },
+  "versions": {
+    "anthropic": "1.11.0",
+    "en-core-web-lg": "3.8.0",
+    "phonenumbers": "9.0.40",
+    "presidio-analyzer": "2.2.364",
+    "presidio-anonymizer": "2.2.364",
+    "python": "3.13.2",
+    "regex": "2026.9.29",
+    "spacy": "3.8.16",
+    "tldextract": "5.4.0"
+  },
+  "written_at": "2026-10-07T14:32:50.630888+00:00"
+}

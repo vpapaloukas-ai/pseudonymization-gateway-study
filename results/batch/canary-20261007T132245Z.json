@@ -1,0 +1,10 @@
+{
+  "requested": "claude-opus-5-5",
+  "models_api_id": "claude-opus-5-5",
+  "display_name": "Claude Opus 5.5",
+  "reported_model": "claude-opus-5-5",
+  "stop_reason": "end_turn",
+  "text": "READY",
+  "request_id": "req_011Cfnwx9TMk69CKivBQxd5J",
+  "at": "2026-10-07T13:22:45.977487+00:00"
+}

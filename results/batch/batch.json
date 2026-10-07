@@ -1,0 +1,21 @@
+{
+  "batch": "test",
+  "emails": 300,
+  "generation": {
+    "accepted": 300,
+    "attempts": 300,
+    "briefs": 300,
+    "dropped": 0,
+    "rejected_attempts": 0
+  },
+  "seed": 20261006,
+  "sha256": {
+    "audit.jsonl": "2332dc21f93f2d1d5c1895c29660bbd2398a527cfc443b633edefe11174b5e49",
+    "briefs.jsonl": "9448c1e7c2377d52e3e46c9b3193b99564afdde447eccba07f63eadadd5344fb",
+    "crm.json": "ae757840dc55c9db172bafc7fd0b23f6f55508aee09dc95390404475a3816334",
+    "emails.jsonl": "9fe56795b0431f6601702c33f6fac340d9471a81deb291f81e0977d66070c9d8",
+    "generation.jsonl": "e91f97c69cec6dec894cc19fa1accb2a67f852d1d77c9781dac1391e6a156649",
+    "gold.jsonl": "de2105166234f84f81f55eec11ec6ec022b94ea380469650c8f6dc8b0ba0705f"
+  },
+  "writer": "live"
+}

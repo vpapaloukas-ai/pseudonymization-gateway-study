@@ -1,0 +1,24 @@
+{
+  "read_back_with": [
+    "gh api repos/vpapaloukas-ai/pseudonymization-gateway-study --jq '{pushed_at, visibility, created_at, default_branch}'",
+    "gh api repos/vpapaloukas-ai/pseudonymization-gateway-study/commits/af63f1cea2f8b97a072dead3f0edbe6d9ee56ae6 --jq '{sha: .sha, parent: .parents[0].sha, tree: .commit.tree.sha, committer_date: .commit.committer.date, message: .commit.message}'",
+    "gh api repos/vpapaloukas-ai/pseudonymization-gateway-study/activity"
+  ],
+  "activity": {
+    "activity_type": "branch_creation",
+    "before": "0000000000000000000000000000000000000000",
+    "after": "af63f1cea2f8b97a072dead3f0edbe6d9ee56ae6",
+    "timestamp": "2026-10-07T13:15:44Z"
+  },
+  "repo": {
+    "pushed_at": "2026-10-07T13:15:44Z",
+    "created_at": "2026-10-07T13:15:21Z",
+    "visibility": "public"
+  },
+  "commit": {
+    "sha": "af63f1cea2f8b97a072dead3f0edbe6d9ee56ae6",
+    "tree": "f05fd1382cce82149a28647ef1dedea095f107fb",
+    "committer_date": "2026-10-07T13:15:40Z",
+    "message": "Pre-registration and frozen code (push 1)"
+  }
+}

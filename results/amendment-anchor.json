@@ -1,0 +1,23 @@
+{
+  "read_back_with": [
+    "gh api repos/vpapaloukas-ai/pseudonymization-gateway-study --jq '{pushed_at, visibility, created_at, default_branch}'",
+    "gh api repos/vpapaloukas-ai/pseudonymization-gateway-study/commits/3a7b2c055110f9012e688d6216c1fc69705e4176 --jq '{sha: .sha, parent: .parents[0].sha, tree: .commit.tree.sha, committer_date: .commit.committer.date, message: .commit.message}'",
+    "gh api repos/vpapaloukas-ai/pseudonymization-gateway-study/activity"
+  ],
+  "activity": {
+    "activity_type": "push",
+    "before": "af63f1cea2f8b97a072dead3f0edbe6d9ee56ae6",
+    "after": "3a7b2c055110f9012e688d6216c1fc69705e4176",
+    "timestamp": "2026-10-07T15:16:36Z"
+  },
+  "repo": {
+    "pushed_at": "2026-10-07T15:16:36Z"
+  },
+  "commit": {
+    "sha": "3a7b2c055110f9012e688d6216c1fc69705e4176",
+    "parent": "af63f1cea2f8b97a072dead3f0edbe6d9ee56ae6",
+    "tree": "82640a299a189f17b5af38c69832353a4d7dc1ff",
+    "committer_date": "2026-10-07T15:15:53Z",
+    "message": "Amendment 2026-10-07: the human send-readiness read is withdrawn (section 12)"
+  }
+}
